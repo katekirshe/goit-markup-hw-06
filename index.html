@@ -54,18 +54,28 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#burger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container"></div>
       </div>
     </header>
     <!--Main-->
     <main>
-      <section class="section section-one">
+      <section class="section section-one hidden">
         <div class="container main-title-container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="order-button">Order Service</button>
         </div>
       </section>
       <!--Features-->
-      <section class="section section-two">
+      <section class="section section-two hidden">
         <div class="container">
           <h2 class="features-title visually-hidden">Our Features</h2>
           <ul class="features-list">
@@ -121,7 +131,7 @@
         </div>
       </section>
       <!--Team-->
-      <section class="section section-three">
+      <section class="section section-three hidden">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -284,7 +294,7 @@
         </div>
       </section>
       <!--Portfolio-->
-      <section class="section section-four">
+      <section class="section section-four hidden">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -402,7 +412,7 @@
       </section>
     </main>
     <!--Footer-->
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-container">
         <div class="footer-desc">
           <a class="logo footer-logo" href="./index.html"
@@ -450,7 +460,7 @@
           </ul>
         </div>
         <!--Footer form-->
-        <div class="footer-form-container">
+        <div class="footer-form-container hidden">
           <p class="footer-form-name">Subscribe</p>
           <form class="footer-form" name="subscribe-form">
             <label class="footer-form-label" for="subscribe-email">
@@ -474,7 +484,7 @@
       </div>
     </footer>
     <!--Modal-->
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hidden">
       <div class="modal">
         <button class="modal-btn" type="button">
           <svg class="modal-btn-icon" width="8" height="8">
