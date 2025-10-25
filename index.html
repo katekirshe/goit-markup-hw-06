@@ -68,14 +68,14 @@
     </header>
     <!--Main-->
     <main>
-      <section class="section section-one hidden">
+      <section class="section section-one">
         <div class="container main-title-container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="order-button">Order Service</button>
         </div>
       </section>
       <!--Features-->
-      <section class="section section-two hidden">
+      <section class="section section-two">
         <div class="container">
           <h2 class="features-title visually-hidden">Our Features</h2>
           <ul class="features-list">
@@ -131,12 +131,18 @@
         </div>
       </section>
       <!--Team-->
-      <section class="section section-three hidden">
+      <section class="section section-three">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-member">
-              <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" />
+              <img
+                srcset="./images/mark.jpg 1x, ./images/mark@2x.jpg 2x"
+                src="./images/mark.jpg"
+                alt="Mark Guerrero"
+                width="264"
+                loading="lazy"
+              />
               <div class="team-member-info">
                 <h3 class="team-member-name">Mark Guerrero</h3>
                 <p class="team-member-job">Product Designer</p>
@@ -174,7 +180,13 @@
               </div>
             </li>
             <li class="team-member">
-              <img src="./images/tomm.jpg" alt="Tom Ford" width="264" />
+              <img
+                srcset="./images/tomm.jpg 1x, ./images/tomm@2x.jpg 2x"
+                src="./images/tomm.jpg"
+                alt="Tom Ford"
+                width="264"
+                loading="lazy"
+              />
               <div class="team-member-info">
                 <h3 class="team-member-name">Tom Ford</h3>
                 <p class="team-member-job">Frontend Developer</p>
@@ -213,7 +225,14 @@
               </div>
             </li>
             <li class="team-member">
-              <img src="./images/camila.jpg" alt="Camila Garcia" width="264" />
+              <img
+                srcset="./images/camila.jpg 1x, ./images/camila@2x.jpg 2x"
+                src="./images/camila.jpg"
+                alt="Camila Garcia"
+                width="264"
+                loading="lazy"
+              />
+
               <div class="team-member-info">
                 <h3 class="team-member-name">Camila Garcia</h3>
                 <p class="team-member-job">Marketing</p>
@@ -252,7 +271,14 @@
               </div>
             </li>
             <li class="team-member">
-              <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" />
+              <img
+                srcset="./images/daniel.jpg 1x, ./images/daniel@2x.jpg 2x"
+                src="./images/daniel.jpg"
+                alt="Daniel Wilson"
+                width="264"
+                loading="lazy"
+              />
+
               <div class="team-member-info">
                 <h3 class="team-member-name">Daniel Wilson</h3>
                 <p class="team-member-job">UI Designer</p>
